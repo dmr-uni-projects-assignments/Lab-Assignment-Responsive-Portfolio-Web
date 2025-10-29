@@ -4,7 +4,7 @@
 
 This is a single-page responsive portfolio website created as part of a lab assignment. The website showcases personal information, projects, skills, and contact details. It is built using **HTML**, and **CSS**.
 
-- URL Link to website portfolio: [Click Here](https://juwono136.github.io/bookstore-html-css/)
+- URL Link to website portfolio: [Click Here](https://dmr-uni-projects-assignments.github.io/Lab-Assignment-Responsive-Portfolio-Web/)
 - URL Link to website design: [Click Here](https://www.figma.com/design/9NFz7bF42TjCfcih4mCXMW/travel-website?node-id=0-1&t=gKd7Ihxhht2aiEM0-1)
 
 ## 🎯 Purpose
@@ -21,8 +21,6 @@ This portfolio is designed for:
 
 - [✅] Potential employers or recruiters
 
-  > _Note: If you don't have a portfolio yet, please add a fake/sample portfolio first._
-
 ## 🧱 Technologies Used
 
 - HTML5
@@ -35,16 +33,15 @@ The website includes the following sections:
 - **Header** – Name and tagline
 - **About Me** – Short bio and photo
 - **Projects** – List of projects with descriptions and links
-- **Skills** – Technical and soft skills
-- **Contact** – Email, social media, or contact form
-- **Footer** – Copyright and links
+- **Skills** – Technical skills
+- **Contact** – Email and social media
+- **Footer** – Copyright
 
 ## 📱 Responsiveness
 
 The site is optimized for:
 
 - Desktop
-- Tablet
 - Mobile
 
 > Responsive design is achieved using media queries and flexible layouts.

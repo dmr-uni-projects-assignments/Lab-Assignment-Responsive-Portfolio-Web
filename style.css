@@ -130,6 +130,19 @@ a.top {
 /* Mobile Version */
 @media only screen and (max-width: 600px) {
 
+  /* top banner */
+  header h1 {
+    font-size: 28px;
+  }
+
+  header h2 {
+    font-size: 16px;
+  }
+
+  a.top {
+    font-size: 10px;
+  }
+
   /* about me stuff */
   .about-me .block {
     flex-direction: column;
