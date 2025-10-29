@@ -13,6 +13,11 @@ body {
   text-align: justify;
 }
 
+main {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -59,13 +64,15 @@ ul li {
 }
 
 
-/* header stuff */
-header {
+/* header and footer stuff */
+header,
+footer {
   width: 100%;
   display: flex;
   padding: 10px 20px;
   background-color: #E8985E;
   margin-bottom: 10px;
+  text-align: left;
 }
 
 .top {
@@ -94,21 +101,45 @@ a.top {
 }
 
 /* projects and skills stuff */
-.projects .row, .skills .row {
+.projects .row,
+.skills .row {
   display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
   margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-.projects .block, .skills .block {
+.projects .block,
+.skills .block {
+  margin-left: 0px;
+  margin-right: 0px;
   flex: 1;
 }
 
-.projects .block img, .skills .block img {
+.projects .block img,
+.skills .block img {
   width: 100%;
   height: auto;
   border-radius: 10px;
+  object-fit: contain;
 }
 
 /* --- Responsive Design --- */
 /* Mobile Version */
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+
+  /* about me stuff */
+  .about-me .block {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* projects and skills stuff */
+  .projects .row,
+  .skills .row {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
