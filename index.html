@@ -9,6 +9,8 @@
 </head>
 
 <body>
+
+  <!-- header, always expand regardless of screen size -->
   <header>
     <div>
       <h1 class="top">Samuel Reagan Purnama</h1>
@@ -18,7 +20,11 @@
       <a class="top" href="#contact">Contact Me</a>
     </div>
   </header>
+
+  <!-- all main content has limited size -->
   <main>
+
+    <!-- main is divided into "block" divs to avoid headache -->
     <section class="about-me">
       <div class="block">
         <div class="ame-text">
@@ -35,17 +41,23 @@
             cabinets.
           </p>
         </div>
+        <!-- frontend dev brings me great pain i spent like 2 hours on this -->
         <div class="ame-img">
           <img src="images/me.jpg">
         </div>
       </div>
     </section>
+
     <br>
+
+    <!-- 2 rows but will wrap as needed and turn into a regular list on phone -->
     <section class="projects">
       <div class="title">
         <h1>Projects</h1>
       </div>
+
       <div class="row">
+        <!-- split into blocks again here -->
         <div class="block">
           <a
             href="https://github.com/teknogods/OpenParrot/commits/master/OpenParrot/src/Functions/Games/ES3X/WMMT5DXPlus.cpp">
@@ -90,6 +102,7 @@
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
       </div>
+
       <div class="row">
         <div class="block">
           <a href="https://github.com/doomertheboomer/skibiSync/">
@@ -111,12 +124,17 @@
           <img src="images/amz2.jpg">
         </div>
       </div>
+
     </section>
+
     <br>
+
     <section class="skills">
       <div class="title">
         <h1>Skills</h1>
       </div>
+
+      <!-- singular row here but same concept as prev section -->
       <div class="row">
         <div class="block">
           <h1>IDA Pro</h1>
@@ -147,8 +165,11 @@
           <img src="images/web.png">
         </div>
       </div>
+
     </section>
+
     <br>
+
     <section class="contact" id="contact">
       <div class="title">
         <h1>Contact Me</h1>
@@ -157,10 +178,14 @@
         <a href="https://www.instagram.com/boomerthedoomer/"><p>Instagram</p></a>
       </div>
     </section>
+
   </main>
+
+  <!-- this works the same as the header, always stretch -->
   <footer style="margin-bottom: 0px;">
     <p>This website belongs to SRP. Do not steal!</p>
   </footer>
+
 </body>
 
 </html>
