@@ -5,7 +5,7 @@
 This is a single-page responsive portfolio website created as part of a lab assignment. The website showcases personal information, projects, skills, and contact details. It is built using **HTML**, and **CSS**.
 
 - URL Link to website portfolio: [Click Here](https://dmr-uni-projects-assignments.github.io/Lab-Assignment-Responsive-Portfolio-Web/)
-- URL Link to website design: [Click Here](https://www.figma.com/design/9NFz7bF42TjCfcih4mCXMW/travel-website?node-id=0-1&t=gKd7Ihxhht2aiEM0-1)
+- URL Link to website design in Canva: [Click Here](https://www.canva.com/design/DAG3VKq43k4/TsvDUFKER6AFEHWp2UH5jg/edit?utm_content=DAG3VKq43k4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ## 🎯 Purpose
 
@@ -13,7 +13,7 @@ The goal of this project is to:
 
 - Practice responsive web design techniques
 - Learn how to structure and style a webpage
-- Showcase personal or sample projects in a professional format
+- Showcase personal or sample projects in a professional format that anyone can access from any device
 
 ## 👥 Target Audience
 
@@ -52,9 +52,9 @@ The site is optimized for:
 2. In your code editor, open the terminal.
 3. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/portfolio-website.git
+   git clone https://github.com/dmr-uni-projects-assignments/Lab-Assignment-Responsive-Portfolio-Web.git
    ```
-4. Open index.html in your browser, or run the website locally using the Live Server Extension.
+4. Open `index.html` in your browser, or run the website locally using the Live Server Extension.
 
 ## 📂 Folder Structure
 
@@ -69,9 +69,9 @@ portfolio-website/
 
 ## 📄 Notes
 
-- I used ChatGPT to help me structure the HTML layout and fix a CSS bug.
-- I designed the color scheme and layout myself using Figma or Canva.
-- I wrote the project descriptions and contact section manually.
+- I used ChatGPT to help me fix a CSS bug (although it didn't work and I ended up fixing it myself). Additionally, I used it to suggest CSS flags alongside VSCode autocomplete.
+- I generated the color scheme using Coolors and modified it myself before designing in Canva.
+- I wrote the project descriptions and contact section manually. The README file is taken from the template provided by my LAB class teacher. 
 
 ## 📸 Screenshots
 
