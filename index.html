@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Sam's Portfolio</title>
 </head>
 
@@ -26,7 +26,12 @@
 
     <!-- main is divided into "block" divs to avoid headache -->
     <section class="about-me">
+
+      <!-- add invisible h2 to make validator happy AND to help with screen readers -->
+      <h2>About Me</h2>
+
       <div class="block">
+        <!-- no heading here because it's an extension of the header -->
         <div class="ame-text">
           <p>I am a software engineer based in Jakarta, Indonesia with
             substantial
@@ -43,7 +48,7 @@
         </div>
         <!-- frontend dev brings me great pain i spent like 2 hours on this -->
         <div class="ame-img">
-          <img src="images/me.jpg">
+          <img src="images/me.jpg" alt="Picture of Me">
         </div>
       </div>
     </section>
@@ -53,7 +58,7 @@
     <!-- 2 rows but will wrap as needed and turn into a regular list on phone -->
     <section class="projects">
       <div class="title">
-        <h1>Projects</h1>
+        <h2>Projects</h2>
       </div>
 
       <div class="row">
@@ -61,16 +66,16 @@
         <div class="block">
           <a
             href="https://github.com/teknogods/OpenParrot/commits/master/OpenParrot/src/Functions/Games/ES3X/WMMT5DXPlus.cpp">
-            <h1>OpenParrot WMMT5DX+ Support</h1>
+            <h3>OpenParrot WMMT5DX+ Support</h3>
           </a>
           <br>
           <p>Added Maximum Tune 5DX+ Support to the TeknoParrot Arcade Emulator including progress saving</p>
           <br>
-          <img src="images/tp.png">
+          <img src="images/tp.png" alt="TeknoParrot Logo">
         </div>
         <div class="block">
           <a href="https://discord.gg/k3pW8AHEaa">
-            <h1>PTMN WMMT6RR Network</h1>
+            <h3>PTMN WMMT6RR Network</h3>
           </a>
           <br>
           <p>A volunteer-run reimplementation of the WMMT6RR server for both emulators and aftermarket arcade cabinets
@@ -87,41 +92,46 @@
             <li>Region Changing</li>
           </ul>
           <br>
-          <img src="images/ptmn.png">
+          <img src="images/ptmn.png" alt="PTMN Logo">
         </div>
         <div class="block">
           <a href="https://github.com/doomertheboomer/depthrush">
-            <h1>Depthrush Dancerush Kinect Driver</h1>
+            <h3>Depthrush Dancerush Kinect Driver</h3>
           </a>
           <br>
           <p>A plugin that allows Dancerush Stardom to be played with an Xbox 360 Kinect</p>
           <br>
-          <iframe width="100%" height="auto" src="https://www.youtube.com/embed/aG8JR4o6KK0"
+
+          <!-- validator doesnt like the % but it works in browser -->
+          <!-- validator also doesnt like frameborder but youtube literally tells you to use it -->
+          <!-- i will be self hosting this video if i ever host the site myself instead of using youtube -->
+          <iframe width="100%" src="https://www.youtube.com/embed/aG8JR4o6KK0"
             title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
         </div>
       </div>
 
       <div class="row">
         <div class="block">
           <a href="https://github.com/doomertheboomer/skibiSync/">
-            <h1>SkibiSync IIDX Sync Tool</h1>
+            <h3>SkibiSync IIDX Sync Tool</h3>
           </a>
           <br>
           <p>A reverse engineering effort for older versions of Beatmania IIDX to allow music syncing on non-CRT
             displays</p>
           <br>
           <a href="https://github.com/doomertheboomer/skibiSync/"><img
-              src="https://opengraph.githubassets.com/d21c9e71eb59464dd921be2ac3542ba946c8aaad35ba6db4ea37b9dd020b2fd8/doomertheboomer/skibiSync"></a>
+              src="https://opengraph.githubassets.com/d21c9e71eb59464dd921be2ac3542ba946c8aaad35ba6db4ea37b9dd020b2fd8/doomertheboomer/skibiSync" alt="SkibiSync GitHub Stats"></a>
         </div>
         <div class="block">
-          <h1>Amazone EWS Custom Software</h1>
+          <h3>Amazone EWS Custom Software</h3>
           <br>
           <p>Assisting in repairing end-of-life arcade cabinets with custom software</p>
           <br>
-          <img src="images/amz1.jpg">
-          <img src="images/amz2.jpg">
+          <img src="images/amz1.jpg" alt="Amazone EWS Cabinet">
+          <img src="images/amz2.jpg" alt="Amazone EWS Software Screenshot">
         </div>
       </div>
 
@@ -131,38 +141,38 @@
 
     <section class="skills">
       <div class="title">
-        <h1>Skills</h1>
+        <h2>Skills</h2>
       </div>
 
       <!-- singular row here but same concept as prev section -->
       <div class="row">
         <div class="block">
-          <h1>IDA Pro</h1>
+          <h3>IDA Pro</h3>
           <br>
           <p>Proficient in using the IDA binary reverse-engineering tool</p>
           <br>
-          <img src="images/ida.png">
+          <img src="images/ida.png" alt="IDA Pro Logo">
         </div>
         <div class="block">
-          <h1>C++</h1>
+          <h3>C++</h3>
           <br>
           <p>Able to program in C++ including low-level features such as pointers</p>
           <br>
-          <img src="images/cpp.png">
+          <img src="images/cpp.png" alt="C++ Logo">
         </div>
         <div class="block">
-          <h1>Godot Game Engine</h1>
+          <h3>Godot Game Engine</h3>
           <br>
           <p>Able to use the Godot Game Engine to make both 2D and 3D video games</p>
           <br>
-          <img src="images/gdt.png">
+          <img src="images/gdt.png" alt="Godot Logo">
         </div>
         <div class="block">
-          <h1>Web Development</h1>
+          <h3>Web Development</h3>
           <br>
           <p>Able to create websites with HTML, CSS, and JavaScript. Additionally, I also know Bootstrap.</p>
           <br>
-          <img src="images/web.png">
+          <img src="images/web.png" alt="HTML CSS JS Logo">
         </div>
       </div>
 
@@ -172,7 +182,7 @@
 
     <section class="contact" id="contact">
       <div class="title">
-        <h1>Contact Me</h1>
+        <h2>Contact Me</h2>
         <br>
         <a href="mailto://samreagan.school@gmail.com"><p>Email</p></a>
         <a href="https://www.instagram.com/boomerthedoomer/"><p>Instagram</p></a>

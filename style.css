@@ -29,12 +29,9 @@ ul li {
   line-height: 1.5;
 }
 
-h1 {
+/* for section headings and such since proper hierarchy needs to be maintained :p */
+h1, h2, h3 {
   font-size: 40px;
-}
-
-h2 {
-  font-size: 25px;
 }
 
 ul {
@@ -85,6 +82,11 @@ a.top {
   font-size: 25px;
 }
 
+/* special h2 for header */
+header h2 {
+  font-size: 25px;
+}
+
 /* about me stuff */
 .about-me .block {
   display: flex;
@@ -93,6 +95,10 @@ a.top {
 
 .ame-text {
   margin-right: 10px;
+}
+
+.about-me h2 {
+  font-size: 0px;
 }
 
 /* this div is needed so the image scales properly */
