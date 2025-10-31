@@ -74,11 +74,11 @@ portfolio-website/
 - I wrote the project descriptions and contact section manually. The README file is taken from the template provided by my LAB class teacher. 
 
 ## 📸 Screenshots
-- Canva Designs:
+# Canva Designs:
 ![Desktop Canva](scrots/can1.png) ![Mobile Canva](scrots/can2.png)
 
-- Desktop:
+# Desktop:
 ![Desktop Page](scrots/des.png)
 
-- Mobile:
+# Mobile:
 ![Mobile Page (Note 20 Ultra)](scrots/n20u.png)
