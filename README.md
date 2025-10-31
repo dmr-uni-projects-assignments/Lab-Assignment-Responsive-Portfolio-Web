@@ -50,7 +50,7 @@ The site is optimized for:
 
 1. Open your code editor (e.g., Visual Studio Code, etc.).
 2. In your code editor, open the terminal.
-3. Clone the repository:
+3. Clone the repository ([git](https://git-scm.com/install/) is required!):
    ```bash
    git clone https://github.com/dmr-uni-projects-assignments/Lab-Assignment-Responsive-Portfolio-Web.git
    ```
@@ -74,5 +74,11 @@ portfolio-website/
 - I wrote the project descriptions and contact section manually. The README file is taken from the template provided by my LAB class teacher. 
 
 ## 📸 Screenshots
+- Canva Designs:
+![Desktop Canva](scrots/can1.png) ![Mobile Canva](scrots/can2.png)
 
-_Add screenshots of your website on different devices here and website design created in Figma or Canva._
+- Desktop:
+![Desktop Page](scrots/des.png)
+
+- Mobile:
+![Mobile Page (Note 20 Ultra)](scrots/n20u.png)
